@@ -23,6 +23,8 @@ class MenuBar extends JMenuBar {
 
         JMenu menuFile = new JMenu("File");
         JMenu menuEdit = new JMenu("Edit");
+        JMenu menuHelp = new JMenu("Help");
+        add(menuHelp);
         add(menuFile);
         add(menuEdit);
 
