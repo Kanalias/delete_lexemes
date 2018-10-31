@@ -5,9 +5,9 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class GUI extends JFrame {
+public class GUIMain extends JFrame {
 
-    public GUI() {
+    public GUIMain() {
         JFrame frame = new JFrame("Delete templates");
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); // чтобы процесс завершался после закрытия окна
         frame.setBounds(180, 100, 1000, 600);

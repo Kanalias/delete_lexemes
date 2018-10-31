@@ -1,6 +1,6 @@
 package main;
 
-import gui.GUI;
+import gui.GUIMain;
 
 import javax.swing.*;
 
@@ -10,7 +10,7 @@ class Main{
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new GUI();
+                new GUIMain();
             }
         });
     }
